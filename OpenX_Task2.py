@@ -89,7 +89,7 @@ def who_is_theclosest(id: int, dct: Dict[int,List[float]],time_sum: float ) -> T
 """
 Below I implemented function which calculates distances in km for each user passing as arguments user's ID
 and dictionary: id: List[Floats]. I wanted to check which solution is more efficient, the first one using 
-shapley library or the secont using simple iteration over each user and calculating.
+shapley library or the second using simple iteration over each user and calculating.
 """
 
 def deg2rad(deg):
